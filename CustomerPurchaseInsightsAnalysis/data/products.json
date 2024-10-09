@@ -1,0 +1,12 @@
+[
+    {
+        "product_id": "P001",
+        "product_name": "Laptop",
+        "category": "Electronics"
+    },
+    {
+        "product_id": "P002",
+        "product_name": "Coffee Maker",
+        "category": "Home Appliances"
+    }
+]

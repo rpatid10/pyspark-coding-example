@@ -1,0 +1,18 @@
+[
+    {
+        "customer_id": "C001",
+        "name": "Alice",
+        "location": {
+            "city": "New York",
+            "state": "NY"
+        }
+    },
+    {
+        "customer_id": "C002",
+        "name": "Bob",
+        "location": {
+            "city": "Los Angeles",
+            "state": "CA"
+        }
+    }
+]

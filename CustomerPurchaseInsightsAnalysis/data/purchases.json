@@ -1,0 +1,16 @@
+[
+    {
+        "purchase_id": "PU001",
+        "customer_id": "C001",
+        "product_id": "P001",
+        "timestamp": "2023-01-01T10:00:00Z",
+        "amount": 1200
+    },
+    {
+        "purchase_id": "PU002",
+        "customer_id": "C002",
+        "product_id": "P002",
+        "timestamp": "2023-01-02T11:00:00Z",
+        "amount": 150
+    }
+]
