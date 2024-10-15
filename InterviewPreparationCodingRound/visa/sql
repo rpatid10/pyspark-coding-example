@@ -1,0 +1,25 @@
+SELECT
+    c1.connection_name AS connection1,
+    c2.connection_name AS connection2
+FROM
+    Connections c1
+JOIN
+    Connections c2
+ON
+    c1.connection_id = c2.connection_id
+    AND c1.connection_name < c2.connection_name
+ORDER BY
+    c1.connection_name,
+    c2.connection_name;
+
+SELECT
+    sale_date,
+    product_id,
+    SUM(sale_amount) OVER (PARTITION BY product_id ORDER BY sale_date) AS sale_amount
+FROM
+    Sales
+ORDER BY
+    sale_date,
+    product_id;
+
+

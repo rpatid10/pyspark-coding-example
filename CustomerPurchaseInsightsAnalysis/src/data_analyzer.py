@@ -20,3 +20,4 @@ def analyze_data(optimized_df: DataFrame):
     total_sales_per_customer.write.mode("overwrite").json("data/total_sales_per_customer.json")
     popular_products.write.mode("overwrite").json("data/popular_products.json")
     sales_trends.write.mode("overwrite").json("data/sales_trends.json")
+/Users/rahul1.patidar/pyspark-project/CustomerPurchaseInsightsAnalysis
